@@ -2,12 +2,13 @@
     "groups": [
         "\"17\" בוקו נו שוחט",
          "28/1 21:00 אצל עומר המלך🦆",
-        "test"
+        "המח של מיכאל"
         
     ],
     "distribution_groups": {
-        "modinikim": ["ויג", "מיכאל"],
-        "another_one": ["שי המגניב", "זלצר", "יעקב הצדיק"]
+        "modinikim": ["ויג", "t"],
+        "another_one": ["שי המגניב", "זלצר", "יעקב הצדיק"],
+        "dugma": ["מיכאל", "זלצר", "שי המגניב"]
     }
 
 }
