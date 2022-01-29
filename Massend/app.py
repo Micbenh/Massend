@@ -10,7 +10,7 @@ class MainWindow:
     def __init__(self, master):
         # Window design
         self.master = master
-        self.master.title("Hello World")
+        self.master.title("Massend")
         self.top_frame = tk.Frame(self.master)
         self.top_frame.grid(row = 0, column = 0, padx=10)
         self.group_options = self.init_groups_menu()
@@ -64,7 +64,6 @@ class MainWindow:
                 distribution_groups_list.append(dist_group)
         return distribution_groups_list
 
-
     def get_dist_list(self):
         dist_group = self.dist_group_option_default.get()
         if  dist_group != "SELECT A DISTIRBUTION GROUP":
@@ -103,9 +102,8 @@ class MainWindow:
                 pyautogui.press("enter")
         pyperclip.copy(text_to_send)
         pyautogui.hotkey('ctrl', 'v')
-        time.sleep(1)
+        time.sleep(3)
         pyautogui.press('enter')
-
 
 def main():
     root = tk.Tk()
